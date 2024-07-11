@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "StickerSmash",
-    "slug": "StickerSmash",
+    "slug": "sticker-smash-scratch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,23 +11,29 @@
       "resizeMode": "contain",
       "backgroundColor": "#25292e"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.arromero.StickerSmash"
+      "bundleIdentifier": "com.arromero.stickersmashscratch"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFFFFF"
       },
-      "package": "com.arromero.StickerSmash"
+      "package": "com.arromero.stickersmashscratch"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "08aee583-e6cd-42c5-8cdf-23375bf9d18b"
+        "projectId": "bb9c95ed-7316-410f-867f-073f052ff7c4"
       }
     },
     "owner": "arromero"
